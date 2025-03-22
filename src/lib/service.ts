@@ -1,4 +1,4 @@
-import { APIKEY } from "./enviroment";
+import { APIKEY } from "./environment";
 
 const getCurrentWeather = async (city: string) => {
   const response = await fetch(
