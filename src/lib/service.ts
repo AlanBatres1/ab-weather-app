@@ -1,4 +1,4 @@
-import { APIKEY } from "./enviroment";
+const APIKEY = process.env.NEXT_PUBLIC_WEATHER_API_KEY;
 
 const getCurrentWeather = async (city: string) => {
   const response = await fetch(
