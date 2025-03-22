@@ -6,7 +6,7 @@ const FiveDayForecastComponent = ({ forecast }: { forecast: any[] }) => {
     // Not sure why some images dont work
     switch (weatherMain) {
       case "Clouds": 
-      return "/clouds.svg";
+      return "/Clouds.svg";
 
       case "Clear":
          return "/Clear.svg";
